@@ -1,0 +1,38 @@
+ <!-- <div class='row mb-2'>
+    <div class='col-sm-12 col-md-12 col-lg-6' *ngFor='let offer of offers; index as offerId'>
+        <div class='card offerBox flex-md-row mb-4 box-shadow h-md-250 m-3'>
+            <div class='card-body d-flex flex-column align-items-start'>
+                <strong class=“d-inline-block mb-2 text-primary”>{{offer.destination}}</strong>
+                <h3 class=“mb-0”>
+                    <h2>{{ offer.description }}</h2>
+                </h3>
+                <div class=“mb-1 text-muted”>Starting: {{offer.startdate}}</div>
+                <div class=“mb-1 text-muted”>Duration: {{offer.duration}}</div>
+                <a class='btn bookBtn mt-3' [routerLink]=“[‘/offers’, offerId]“>View Details</a>
+            </div>
+           <img class=“card-img-right flex-auto d-none d-md-block” data-src=“assets/img/newYork.jpg” alt=“Card image cap”> 
+            <img class=“card-img-right flex-auto d-none d-md-block” src=“{{offer.img}}” alt=“Destination image” width=“300vw”>
+        </div>
+    </div>
+</div> -->
+<div class="whole">
+<div class="row mb-2" >
+<div class="col-sm-12 col-md-12 col-lg-6" *ngFor='let offer of offers; index as offerId'>
+	
+<div class="card" style="width: 18rem;">
+  <img src="{{offer.img}}" class="card-img-top" alt="..." width="250px" height="250px">
+  <div class="card-body">
+    <h5 class="card-title">{{offer.destination}}</h5>
+    <p class="card-text">{{offer.description}}</p>
+    <p class="card-text"> price {{offer.price}}</p>
+    <p class="card-text"> start date: {{offer.startdate}}</p>
+    <p class="card-text"> duration: {{offer.duration}}</p>
+
+   	
+  </div>
+</div>
+
+
+</div>
+</div>
+</div>

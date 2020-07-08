@@ -1,0 +1,15 @@
+#test {
+	background: url('/assets/img/beach.jpg') 50% 50% no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#description{
+	color:white;
+	padding:20%;
+	font-size: 3vw;
+	text-shadow: 0.2vw 0.2vw grey;
+}

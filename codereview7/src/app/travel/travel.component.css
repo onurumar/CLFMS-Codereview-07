@@ -1,0 +1,15 @@
+.wrapper {
+  max-width: 1480px;
+}
+
+/* .card {
+  width: fit-content;
+} */
+
+.pointer {
+  cursor: pointer;
+}
+
+.whole {
+  margin-left: 15%;
+}
